@@ -1,8 +1,29 @@
+IT Colle# IT College Room Booking System
 
-# (Controller Folder) where everything is being processed and sent to the database
-# (CSS Framework) tailwind
+## Project Overview  
+This is a responsive web-based room booking system designed for the IT College. The system allows users to register, browse available rooms, make bookings, and manage their profiles. Administrators can manage rooms, schedules, and view analytics.  
 
+## Features  
+- **User Registration & Login:** Advanced validation for UoB emails, profile management, and picture uploads.  
+- **Room Browsing:** View room details such as capacity, equipment, and available timeslots.  
+- **Booking System:** Book rooms with conflict checking and cancellation functionality.  
+- **Admin Dashboard:** Manage rooms, schedules, and user comments.  
+- **Reporting & Analytics:** Insights into room usage and booking statistics.  
+- **Comment System:** Users can leave feedback on rooms, with admin responses.  
 
+## Technologies Used  
+- **Frontend:** Tailwind CSS for styling.  
+- **Backend:** PHP with PDO for database interaction.  
+- **Database:** MySQL.  
+- **Server:** Apache.  
 
-# Custom Features
+## Folder Structure  
+- **/controller**: Contains the logic for processing user requests and interacting with the database.  
+- **/assets**: Contains CSS, Images and other static files.  
+- /components: Reusable frontend components for modular design.
+- /node_modules: Contains dependencies for frontend frameworks or tools.
+- **/config**: Holds configuration files like database connection settings.   
 
+## Contributors  
+- **Neama Abdulmajed** (202012167)  
+- **Sakenah Mansor** (202010498)  
