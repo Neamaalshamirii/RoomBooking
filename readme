@@ -1,41 +1,8 @@
-IT College Room Booking System
 
-Project Overview:
-This is a responsive web-based room booking system designed for the IT College. The system allows users to register, browse available rooms, make bookings, and manage their profiles. Administrators can manage rooms, schedules, and view analytics.
+# (Controller Folder) where everything is being processed and sent to the database
+# (CSS Framework) tailwind
 
-Features:
 
-1- User Registration & Login: Advanced validation for UoB emails, profile management, and picture uploads.
-2- Room Browsing: View room details such as capacity, equipment, and available timeslots.
-3- Booking System: Book rooms with conflict checking and cancellation functionality.
-4- Admin Panel: Manage rooms, schedules, and user comments.
-5- Reporting & Analytics: Insights into room usage and booking statistics.
-6- Comment System: Users can leave feedback on rooms, with admin responses.
 
-Technologies Used:
+# Custom Features
 
-1-Frontend: Tailwind CSS for styling.
-2-Backend: PHP with PDO for database interaction.
-3-Database: MySQL.
-4-Server: Apache.
-
-Folder Structure
-
-1-/controller: Contains the logic for processing user requests and interacting with the database.
-2- /assets: Contains CSS, imagess, and other static files.
-3- /components: Reusable frontend components for modular design.
-4- /node_modules: Contains dependencies for frontend frameworks or tools.
-5- /config: Holds configuration files like database connection settings.
-
-Setup Instructions:
-
-1- Clone the repository: git clone https://github.com/Neamaalshamirii/RoomBooking.git
-2- Set up a local server (e.g., XAMPP) and configure the database using the provided schema.
-3- Install dependencies for the frontend (if required):
-4- npm install
-5-Start the Apache server and access the project through your browser.
-
-Contributors:
-
-1-Neama Abdulmajed (202012167)
-2-Sakenah Mansor (202010498)
