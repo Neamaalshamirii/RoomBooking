@@ -29,7 +29,7 @@ Folder Structure
 
 Setup Instructions:
 
-1- Clone the repository: git clone https://github.com/username/it-college-room-booking.git
+1- Clone the repository: git clone https://github.com/Neamaalshamirii/RoomBooking.git
 2- Set up a local server (e.g., XAMPP) and configure the database using the provided schema.
 3- Install dependencies for the frontend (if required):
 4- npm install
@@ -37,5 +37,5 @@ Setup Instructions:
 
 Contributors:
 
-Neama Abdulmajed (202012167)
-Sakenah Mansor (202010498)
+1-Neama Abdulmajed (202012167)
+2-Sakenah Mansor (202010498)
