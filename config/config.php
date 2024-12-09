@@ -3,7 +3,7 @@
 
 <?php
 
-define('BASE_URL', '/roombookings');
+define('BASE_URL', '/roombooking');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
