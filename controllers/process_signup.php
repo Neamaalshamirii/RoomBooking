@@ -15,8 +15,8 @@ if ($password != $repassword) {
     exit();
 }
 
-if(!preg_match("/@stu\.uob\.edu\.bh$/", $email)) {
-    $_SESSION['error'] = "Email must be a valid @stu.uob.edu.bh address";
+if (!preg_match("/@(stu\.)?uob\.edu\.bh$/", $email)) {
+    $_SESSION['error'] = "Email must be a valid @stu.uob.edu.bh or @uob.edu.bh address";
     header("Location: " . BASE_URL . "/signup.php");
     exit();
 }
