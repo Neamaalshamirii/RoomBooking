@@ -33,7 +33,7 @@ if(session_status() == PHP_SESSION_NONE) {
                 }
             ?>
 
-            <form class="space-y-6" action="process_signup.php" method="POST">
+            <form class="space-y-6" action="controllers/process_signup.php" method="POST">
                 <div class="form-group">
                     <label for="fullname" class="block text-gray-300 mb-2">Full Name</label>
                     <input type="text" id="fullname" name="fullname" 
